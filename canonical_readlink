@@ -1,5 +1,5 @@
 #! /usr/bin/env sh
 __filename=$1
 cd `dirname $__filename`
-echo `pwd`
+echo "$(pwd)/$__filename"
 
