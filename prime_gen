@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+for i in `seq $1 $2`; do
+	result=`factor $i | wc -w`;
+	if [ $result == 2 ]; then
+		echo $i;
+	fi
+done
+
+
+
